@@ -36,9 +36,9 @@
     <div class="hero">
       <div class="hero-content">
         <h1>Recipies... to die for.</h1>
-        <form>
-          <input type="text">
-          <a href="searchresults.php">Search</a>
+        <form class="home-search">
+          <input class="searchbar" type="text">
+          <a href="searchresults.php" class="button-mast">Search</a>
         </form>
           <img src="images/logologo1.png" alt="logo">
       </div>

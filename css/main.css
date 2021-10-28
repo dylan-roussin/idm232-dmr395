@@ -30,12 +30,7 @@ nav {
   font-size: 1.25rem;
 }
 
-
-form input {
-  width: 100%;
-}
-
-form a {
+.button-mast {
   background-color: gainsboro;
   padding: 0.5rem;
   text-decoration: none;
@@ -50,6 +45,7 @@ form a {
   display: flex;
   flex-direction: column;
 }
+
 
 .hero {
   display: flex;
@@ -73,7 +69,7 @@ form a {
   margin: auto;
 }
 
-form {
+.home-search {
   display: flex;
   justify-self: center;
 }
@@ -118,7 +114,26 @@ img {
   width: 300px;
 }
 
-input {
+.searchbar {
   padding: 0.5rem;
   font-size: 1rem;
+  width: 100%;
+
+}
+
+.admin-login {
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.admin-login a {
+  margin: auto;
+}
+
+.button-log {
+  background-color: gainsboro;
+  padding: 0.2rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Zen Antique Soft', serif;
 }

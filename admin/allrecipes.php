@@ -16,9 +16,7 @@
   <div class="nav-container">
   <a href="../index.php"><img src="../images/logologo1.png" alt="logo"></a>
   <ul>
-    <li><a href="../category.php">Categories</a></li>
-    <li><a href="login.php">Admin</a></li>
-    <li><a href="allrecipes.php">All</a></li>
+    <li><a href="#">Admin View</a></li>
   </ul>
   </div>
 </nav>
