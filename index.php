@@ -35,7 +35,7 @@
     
     <div class="hero">
       <div class="hero-content">
-        <h1>Recipies... to die for.</h1>
+        <h1>Recipes... to die for.</h1>
         <form class="home-search">
           <input class="searchbar" type="text">
           <a href="searchresults.php" class="button-mast">Search</a>
