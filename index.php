@@ -10,6 +10,9 @@
   <title>Home | Recipes to die for</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
 </head>
 
 <nav>
@@ -18,7 +21,7 @@
   <ul>
     <li><a href="category.php">Categories</a></li>
     <li><a href="admin/login.php">Admin</a></li>
-    <li><a href="admin/allrecipies.php">All</a></li>
+    <li><a href="admin/allrecipes.php">All</a></li>
   </ul>
   </div>
 </nav>
