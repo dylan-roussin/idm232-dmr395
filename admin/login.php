@@ -28,7 +28,7 @@
     <label for="pass">Password: </label>
     <input type="password" name="pass">
     <br>
-    <a href="editrecipe.php" class="button-log">Submit</a>
+    <a href="allrecipes.php" class="button-log">Submit</a>
   </form>
   </div>
 </body>

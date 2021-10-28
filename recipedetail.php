@@ -18,82 +18,32 @@
   <ul>
     <li><a href="category.php">Categories</a></li>
     <li><a href="admin/login.php">Admin</a></li>
-    <li><a href="admin/allrecipes.php">All</a></li>
   </ul>
   </div>
 </nav>
 
+<body>
 <h1 class="page-title">Chicken Al Ghul</h1>
 
-<div class="featured">
+<div class="container">
+<div class="info-card">
+  <img src="images/chicken.jpeg" alt="chicken">
+  <p>Chicken Al Ghul is a classic dish, devolped by Mr. Al Ghul himself.</p>
+  <p>It is said that one bite of Chicken Al Ghul can drive a person mad.</p>
+</div>
 
-      <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
+<div class="steps">
+  <h3>Steps:</h3>
+  <ol>
+    <li>Add the chicken.</li>
+    <li>Add the Al Ghul.</li>
+    <li>Stir for 30 minutes on high.</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, exercitationem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, exercitationem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, exercitationem!</li>
+  </ol>
 
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-        <a href="recipedetail.php">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Chicken Al Ghul</h3>
-            <p>This is a very spooky meal.</p>
-        </div>
-        </a>
-
-
-      </div>
-
-
+</div>
+</div>
 <!-- footer include -->
 <?php include 'includes/footer.php' ?>

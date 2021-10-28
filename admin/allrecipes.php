@@ -21,11 +21,14 @@
   </div>
 </nav>
 
+<body>
+  
+
 <h1 class="page-title">All Recipes</h1>
 
 <div class="featured">
 
-      <a href="../recipedetail.php">
+      <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -33,7 +36,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -41,7 +44,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -49,7 +52,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -57,7 +60,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -65,7 +68,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -73,7 +76,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>
@@ -81,7 +84,7 @@
         </div>
         </a>
 
-        <a href="recipedetail.php">
+        <a href="editrecipe.php">
         <div class="card">
             <img src="../images/chicken.jpeg" alt="photo of chicken">
             <h3>Chicken Al Ghul</h3>

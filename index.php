@@ -21,7 +21,6 @@
   <ul>
     <li><a href="category.php">Categories</a></li>
     <li><a href="admin/login.php">Admin</a></li>
-    <li><a href="admin/allrecipes.php">All</a></li>
   </ul>
   </div>
 </nav>

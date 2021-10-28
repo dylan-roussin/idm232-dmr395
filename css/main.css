@@ -121,19 +121,53 @@ img {
 
 }
 
-.admin-login {
-  padding: 0.5rem;
-  justify-content: center;
-}
-
-.admin-login a {
-  margin: auto;
-}
-
 .button-log {
   background-color: gainsboro;
   padding: 0.2rem;
   text-decoration: none;
   color: black;
   font-family: 'Zen Antique Soft', serif;
+  margin: auto;
+}
+/* recipe info */
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+.info-card { 
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.info-card p {
+  padding-top: .25rem;
+}
+
+.info-card img { 
+  width: 70%;
+  margin: auto;
+  box-shadow: 6px 5px 14px 1px rgba(0,0,0,0.1)
+}
+
+
+.steps { 
+  padding: 1rem;
+}
+
+.steps li { 
+  padding-top: .25rem;
+}
+
+.admin-login {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.edit-area {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
 }

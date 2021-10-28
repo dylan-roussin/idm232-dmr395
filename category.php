@@ -18,11 +18,11 @@
   <ul>
     <li><a href="category.php">Categories</a></li>
     <li><a href="admin/login.php">Admin</a></li>
-    <li><a href="admin/allrecipies.php">All</a></li>
   </ul>
   </div>
 </nav>
 
+<body>
 <h1 class="page-title">Categories</h1>
 
 <div class="featured">
@@ -36,7 +36,7 @@
 
         <a href="#">
         <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
+            <img src="images/logologo1.png" alt="logo">
             <h3>Category Name</h3>
         </div>
         </a>
@@ -50,38 +50,11 @@
 
         <a href="#">
         <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
+            <img src="images/logologo1.png" alt="logo">
             <h3>Category Name</h3>
         </div>
         </a>
 
-        <a href="#">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Category Name</h3>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Category Name</h3>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Category Name</h3>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="card">
-            <img src="images/chicken.jpeg" alt="photo of chicken">
-            <h3>Category Name</h3>
-        </div>
-        </a>
 
 
       </div>
