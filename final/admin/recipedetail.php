@@ -44,9 +44,7 @@ if (isset($_GET['id'])) {
 </div>
 
 
-<div class="steps">
   <p><?php echo "<div class='steps'>" . $user['recipe_steps'] . "</div>"; ?></p>
-</div>
 </div>
 
 <!-- footer include -->

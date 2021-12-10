@@ -23,13 +23,13 @@ if(isset($_POST['submit'])) {
   // Build Query
   $query = "INSERT INTO recipe (`recipe_title`, `recipe_desc`, `recipe_steps`, `recipe_category`, `file_path`, `date_created`, `date_updated`)";
   $query .= "VALUES ('${recipe_title}', '${recipe_desc}', '${recipe_steps}', '${recipe_category}', '${file_path}', '${current_date}','${current_date}')";
- 
-
-move_uploaded_file($temp_name, $file_path);
-$results = mysqli_query($db_connection, $query);
+  $results = mysqli_query($db_connection, $query);
+  if ($results) {
+    move_uploaded_file($temp_name, "../${file_path}");
+  } else
 header("Location: allrecipes.php"); 
-      
-} 
+}    
+
 
 
 
