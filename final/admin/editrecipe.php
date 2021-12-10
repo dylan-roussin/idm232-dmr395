@@ -26,6 +26,7 @@ if(isset($_POST['update'])) {
 // Execute
 $results = mysqli_query($db_connection, $query);
 header("Location: allrecipes.php"); 
+exit();
 
 if ($results && $results->num_rows > 0) {
   echo 'Recipe Updated Successfully';

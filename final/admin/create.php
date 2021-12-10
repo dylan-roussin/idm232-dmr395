@@ -27,7 +27,8 @@ if(isset($_POST['submit'])) {
   if ($results) {
     move_uploaded_file($temp_name, "../${file_path}");
   } else
-header("Location: allrecipes.php"); 
+header("Location: allrecipes.php");
+exit(); 
 }    
 
 

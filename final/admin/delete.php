@@ -13,12 +13,14 @@ if(isset($_GET['id'])) {
   $query .= ' LIMIT 1';
   var_dump($query);
   $results = mysqli_query($db_connection, $query);
-  var_dump($results);
   if ($results) {
     header("Location: allrecipes.php"); 
+    exit();
   } else {
     header("Location: allrecipes.php"); 
+    exit();
   }
 } else {
   header("Location: allrecipes.php"); 
+  exit();
 }
