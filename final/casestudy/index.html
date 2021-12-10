@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study | IDM 232</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="details">
+
+            <img id="hero" src="images/hero.png" alt="An image of Recipes to Die For">
+
+            <h1>IDM 232 - Scripting for Interactive Digital Media Case Study</h1>
+            <p id="author">By Dylan Roussin</p>
+
+            <div class="content">
+                <p>
+                    For IDM 232, the task was to create a recipe website that could access a database which stored 
+                    the recipes. The project focused on using MySQL in order to make changes to the database through the website,
+                    and the queries were built using PHP to allow for user input. The project also had a search functionality and
+                    image upload. 
+                </p>
+
+                <h2>Goals</h2>
+                <p>
+                    The goal of this project was to improve  using PHP, MySQL, HTML, and CSS by creating a website that 
+                    used each of these technologies. The task was the create a database to store recipes and associated 
+                    data, a page to list categories, a page to list recipes that fit a selected category, a recipe detail 
+                    page, as well as a search functionality and search result page.
+                </p>
+                <p id="p-spacer">
+                    Pages for an administator were also created, including a page listing
+                    all recipes, a page to create a recipe, and a page showing recipe details
+                    along with a way to edit and delete the selected recipe. 
+                </p>
+
+                <h2>Process and Insight</h2>
+                <p>
+                    In order to accomplish the task of storing recipes, a database was created that could store 
+                    details about each recipe, such as its name, description, content, category, and associated image.
+                    The database was accessed using MySQL queries built from HTML forms that collected user info, and
+                    using PHP in order to display the data on the page. Recipe pages are formed formed
+                    from variables pulled from the database that allow for their to only be one version of 
+                    a page that changes its information based on its ID. 
+                </p>
+
+                <p id="p-spacer">
+                    In order to display a list of categories, a SQL query which selected all unique
+                    categories was used. This was especially important, as the category names and amount 
+                    could vary, as the user to able to add and delete recipes. Most tasks required accessing
+                    the database, storing the result in an array, and accessing variables in the array for 
+                    manipulation.
+                </p>
+
+            
+
+                <h2>Results</h2>
+                <a href='http://dylanroussin.com/idm232/final/index.php'>Final Project</a>
+
+            </div>  
+
+            
+          
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+}
+
+a {
+  color: #0065c4;
+}
+
+
+#hero {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#author {
+  padding-top: 0.75rem;
+  padding-bottom: 1.2rem;
+  font-style: italic;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#p-spacer {
+  padding-top: 1rem;
+}
+
+/* centering */
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* size of centered content */
+.details {
+  padding-bottom: 1rem;
+  width: 50%;
+}
+
+.content {
+  line-height: 1.8rem;
+}
+
+.details h3 {
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+
+
+
+/* Large */
+@media only screen and (min-width: 1170px) {
+
+.img-container figure {
+  font-size: 1.1rem;
+  width: 16rem;
+}
+  
+}
+
+/* Medium */
+@media only screen and (max-width: 1169px) {
+
+.details {
+  width: 70%;
+}
+}
+
+/* Small */
+@media only screen and (max-width: 768px) {
+
+.total {
+  padding: 1rem;
+}
+
+.details {
+  width: 85%;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+  
+}
