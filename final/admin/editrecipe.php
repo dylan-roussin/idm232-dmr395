@@ -25,8 +25,9 @@ if(isset($_POST['update'])) {
 
 // Execute
 $results = mysqli_query($db_connection, $query);
-header("Location: allrecipes.php"); 
-exit();
+$URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+  echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
+  echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
 
 if ($results && $results->num_rows > 0) {
   echo 'Recipe Updated Successfully';
