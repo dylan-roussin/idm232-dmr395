@@ -25,7 +25,7 @@ if(isset($_POST['update'])) {
 
 // Execute
 $results = mysqli_query($db_connection, $query);
-$URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+$URL="http://dylanroussin.com/idm232/final/admin/allrecipes.php";
   echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
   echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
 

@@ -27,7 +27,7 @@ if(isset($_POST['submit'])) {
   if ($results) {
     move_uploaded_file($temp_name, "../${file_path}");
   } else
-  $URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+  $URL="http://dylanroussin.com/idm232/final/admin/allrecipes.php";
   echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
   echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
 }    

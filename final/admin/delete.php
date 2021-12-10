@@ -11,19 +11,18 @@ if(isset($_GET['id'])) {
   $query .= 'WHERE id=' . $user_id;
   // confirm only ONE record is being deleted
   $query .= ' LIMIT 1';
-  var_dump($query);
   $results = mysqli_query($db_connection, $query);
   if ($results) {
-    $URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+    $URL="http://dylanroussin.com/idm232/final/admin/allrecipes.php";
   echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
   echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
   } else {
-    $URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+    $URL="http://dylanroussin.com/idm232/final/admin/allrecipes.php";
   echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
   echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
   }
 } else {
-  $URL="http://dylanroussin.com/idm232/final/allrecipes.php";
+  $URL="http://dylanroussin.com/idm232/final/admin/allrecipes.php";
   echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
   echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
 }
