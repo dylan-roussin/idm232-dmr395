@@ -386,5 +386,16 @@ textarea {
     color: black;
     margin: auto;
   }
+
+
+  .info-card img {
+    position: relative;
+    top: 15rem;
+  }
+
+  .steps {
+    position: relative;
+    top: 25rem;
+  }
   
 }
